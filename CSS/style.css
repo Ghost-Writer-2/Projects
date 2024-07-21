@@ -1,0 +1,27 @@
+body {
+  background-color: aliceblue;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 30vw 60vw;
+  column-gap: 10px;
+  height: 100vh;
+}
+
+.bg-img {
+  background-color: pink;
+  width: 100%;
+  height: 100%;
+}
+
+.form > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
+.form-data {
+  display: block;
+}
