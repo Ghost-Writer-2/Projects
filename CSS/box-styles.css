@@ -1,0 +1,56 @@
+/* MAIN BOX STYLES */
+
+.main-box {
+  display: grid;
+  grid-template-columns: 35vw 65vw;
+  justify-content: center;
+  align-items: left;
+}
+
+.content-box {
+ display: block;
+ padding-top: 100px;
+}
+
+/* FORM_BOX STYLES */
+
+.header-box {
+  padding-left: 30px;
+}
+
+
+.form-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
+.form-box {
+  display: inline-block;
+  background-color: rgb(253, 253, 253);
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+  box-shadow: 2px 4px 6px -1px #c2c2c2, 2px 0px 5px #c2c2c2;
+}
+
+
+.form-data {
+  display: block;
+}
+
+.form-contents {
+  margin-bottom: 10px;
+}
+
+/* FOOTER STYLES */
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}

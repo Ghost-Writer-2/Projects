@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: min(18px, 30px);
+  margin: 0px;
+}
+
+label {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+input {
+  padding: 3px;
+}
+
+a {
+  color: rgb(0, 195, 0);
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(0, 195, 0);
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: rgb(0, 107, 0);
+}
