@@ -24,42 +24,39 @@
           <p>You <em>know</em> you want to.</p>
         </div>
         <div class="form-box">
+<!-- Update the form add some input attributes for form validation min and max -->
           <p class="head-text">Let's do this!</p>
-          <form id="userForm" class="form" >
+          <form id="userForm" class="form-main" autocomplete="on">
             <div class="form-contents">
               <div class="form-data">
                 <label for="fname">FIRST NAME:</label><br>
                 <input class="form" type="text" name="first-name" id="fname" required>
-                <span id="fnameMessage"></span>
               </div>
   
              <div class="form-data">
               <label for="lname">LAST NAME:</label><br>
-              <input class="form" type="text" name="last-name" id="lname">
-              <span id="lnameMessage"></span>
+              <input class="form" type="text" name="last-name" id="lname" required>
              </div>
   
              <div class="form-data">
               <label for="email">EMAIL:</label><br>
-              <input class="form" type="email" name="email" id="email">
-              <span id="emailMessage"></span>
+              <input class="form" type="email" name="email" id="email" required>
              </div>
   
              <div class="form-data">
               <label for="phone-num">PHONE NUMBER:</label><br>
-              <input class="form" type="text" name="phone-number" id="phone-num">
-              <span id="phoneMessage"></span>
+              <input class="form" type="text" name="phone-number" id="phone-num" required>
              </div>
   
              <div class="form-data">
               <label for="password">PASSWORD:</label><br>
-              <input class="form" type="password" name="password" id="password" onkeyup="checkPassword()" required><br>
+              <input class="form" type="password" name="password" id="password" required min="8"><br>
               <span id="pwmessage"></span>
              </div>
   
              <div class="form-data">
               <label for="password-confirm">CONFIRM PASSWORD:</label><br>
-              <input class="form" type="password" name="confirm-password" id="password-confirm" onkeyup="checkPassword()" required><br>
+              <input class="form" type="password" name="confirm-password" id="password-confirm" required min="8"><br>
               <span id="cpwmessage"></span>
              </div>
 
@@ -78,5 +75,6 @@
  
   
   <script src="/JavaScript/script.js"></script>
+  <script src="/JavaScript/form-validation.js"></script>
 </body>
 </html>

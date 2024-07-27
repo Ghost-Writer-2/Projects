@@ -1,4 +1,11 @@
 /* MAIN BOX STYLES */
+html {
+  box-sizing: border-box;
+}
+
+main {
+  box-sizing: border-box;
+}
 
 .main-box {
   display: grid;
